@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87BFBB56290912B600E9B0FE /* Arvid_s_TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFBB55290912B600E9B0FE /* Arvid_s_TodoApp.swift */; };
+		87BFBB58290912B600E9B0FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFBB57290912B600E9B0FE /* ContentView.swift */; };
+		87BFBB5A290912B800E9B0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BFBB59290912B800E9B0FE /* Assets.xcassets */; };
+		87BFBB5E290912B800E9B0FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BFBB5D290912B800E9B0FE /* Preview Assets.xcassets */; };
+		87BFBB68290912B800E9B0FE /* Arvid_s_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFBB67290912B800E9B0FE /* Arvid_s_TodoTests.swift */; };
+		87BFBB72290912B800E9B0FE /* Arvid_s_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFBB71290912B800E9B0FE /* Arvid_s_TodoUITests.swift */; };
+		87BFBB74290912B800E9B0FE /* Arvid_s_TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFBB73290912B800E9B0FE /* Arvid_s_TodoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87BFBB64290912B800E9B0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BFBB4A290912B600E9B0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BFBB51290912B600E9B0FE;
+			remoteInfo = "Arvid's Todo";
+		};
+		87BFBB6E290912B800E9B0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BFBB4A290912B600E9B0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BFBB51290912B600E9B0FE;
+			remoteInfo = "Arvid's Todo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87BFBB52290912B600E9B0FE /* Arvid's Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arvid's Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFBB55290912B600E9B0FE /* Arvid_s_TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arvid_s_TodoApp.swift; sourceTree = "<group>"; };
+		87BFBB57290912B600E9B0FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87BFBB59290912B800E9B0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BFBB5B290912B800E9B0FE /* Arvid_s_Todo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arvid_s_Todo.entitlements; sourceTree = "<group>"; };
+		87BFBB5D290912B800E9B0FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87BFBB63290912B800E9B0FE /* Arvid's TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arvid's TodoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFBB67290912B800E9B0FE /* Arvid_s_TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arvid_s_TodoTests.swift; sourceTree = "<group>"; };
+		87BFBB6D290912B800E9B0FE /* Arvid's TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arvid's TodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFBB71290912B800E9B0FE /* Arvid_s_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arvid_s_TodoUITests.swift; sourceTree = "<group>"; };
+		87BFBB73290912B800E9B0FE /* Arvid_s_TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arvid_s_TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87BFBB4F290912B600E9B0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB60290912B800E9B0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB6A290912B800E9B0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87BFBB49290912B600E9B0FE = {
+			isa = PBXGroup;
+			children = (
+				87BFBB54290912B600E9B0FE /* Arvid's Todo */,
+				87BFBB66290912B800E9B0FE /* Arvid's TodoTests */,
+				87BFBB70290912B800E9B0FE /* Arvid's TodoUITests */,
+				87BFBB53290912B600E9B0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87BFBB53290912B600E9B0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BFBB52290912B600E9B0FE /* Arvid's Todo.app */,
+				87BFBB63290912B800E9B0FE /* Arvid's TodoTests.xctest */,
+				87BFBB6D290912B800E9B0FE /* Arvid's TodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87BFBB54290912B600E9B0FE /* Arvid's Todo */ = {
+			isa = PBXGroup;
+			children = (
+				87BFBB55290912B600E9B0FE /* Arvid_s_TodoApp.swift */,
+				87BFBB57290912B600E9B0FE /* ContentView.swift */,
+				87BFBB59290912B800E9B0FE /* Assets.xcassets */,
+				87BFBB5B290912B800E9B0FE /* Arvid_s_Todo.entitlements */,
+				87BFBB5C290912B800E9B0FE /* Preview Content */,
+			);
+			path = "Arvid's Todo";
+			sourceTree = "<group>";
+		};
+		87BFBB5C290912B800E9B0FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87BFBB5D290912B800E9B0FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87BFBB66290912B800E9B0FE /* Arvid's TodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				87BFBB67290912B800E9B0FE /* Arvid_s_TodoTests.swift */,
+			);
+			path = "Arvid's TodoTests";
+			sourceTree = "<group>";
+		};
+		87BFBB70290912B800E9B0FE /* Arvid's TodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87BFBB71290912B800E9B0FE /* Arvid_s_TodoUITests.swift */,
+				87BFBB73290912B800E9B0FE /* Arvid_s_TodoUITestsLaunchTests.swift */,
+			);
+			path = "Arvid's TodoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87BFBB51290912B600E9B0FE /* Arvid's Todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFBB77290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's Todo" */;
+			buildPhases = (
+				87BFBB4E290912B600E9B0FE /* Sources */,
+				87BFBB4F290912B600E9B0FE /* Frameworks */,
+				87BFBB50290912B600E9B0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arvid's Todo";
+			productName = "Arvid's Todo";
+			productReference = 87BFBB52290912B600E9B0FE /* Arvid's Todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87BFBB62290912B800E9B0FE /* Arvid's TodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFBB7A290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's TodoTests" */;
+			buildPhases = (
+				87BFBB5F290912B800E9B0FE /* Sources */,
+				87BFBB60290912B800E9B0FE /* Frameworks */,
+				87BFBB61290912B800E9B0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BFBB65290912B800E9B0FE /* PBXTargetDependency */,
+			);
+			name = "Arvid's TodoTests";
+			productName = "Arvid's TodoTests";
+			productReference = 87BFBB63290912B800E9B0FE /* Arvid's TodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87BFBB6C290912B800E9B0FE /* Arvid's TodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFBB7D290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's TodoUITests" */;
+			buildPhases = (
+				87BFBB69290912B800E9B0FE /* Sources */,
+				87BFBB6A290912B800E9B0FE /* Frameworks */,
+				87BFBB6B290912B800E9B0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BFBB6F290912B800E9B0FE /* PBXTargetDependency */,
+			);
+			name = "Arvid's TodoUITests";
+			productName = "Arvid's TodoUITests";
+			productReference = 87BFBB6D290912B800E9B0FE /* Arvid's TodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87BFBB4A290912B600E9B0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					87BFBB51290912B600E9B0FE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					87BFBB62290912B800E9B0FE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 87BFBB51290912B600E9B0FE;
+					};
+					87BFBB6C290912B800E9B0FE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 87BFBB51290912B600E9B0FE;
+					};
+				};
+			};
+			buildConfigurationList = 87BFBB4D290912B600E9B0FE /* Build configuration list for PBXProject "Arvid's Todo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87BFBB49290912B600E9B0FE;
+			productRefGroup = 87BFBB53290912B600E9B0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BFBB51290912B600E9B0FE /* Arvid's Todo */,
+				87BFBB62290912B800E9B0FE /* Arvid's TodoTests */,
+				87BFBB6C290912B800E9B0FE /* Arvid's TodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87BFBB50290912B600E9B0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFBB5E290912B800E9B0FE /* Preview Assets.xcassets in Resources */,
+				87BFBB5A290912B800E9B0FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB61290912B800E9B0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB6B290912B800E9B0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BFBB4E290912B600E9B0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFBB58290912B600E9B0FE /* ContentView.swift in Sources */,
+				87BFBB56290912B600E9B0FE /* Arvid_s_TodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB5F290912B800E9B0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFBB68290912B800E9B0FE /* Arvid_s_TodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFBB69290912B800E9B0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFBB72290912B800E9B0FE /* Arvid_s_TodoUITests.swift in Sources */,
+				87BFBB74290912B800E9B0FE /* Arvid_s_TodoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87BFBB65290912B800E9B0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BFBB51290912B600E9B0FE /* Arvid's Todo */;
+			targetProxy = 87BFBB64290912B800E9B0FE /* PBXContainerItemProxy */;
+		};
+		87BFBB6F290912B800E9B0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BFBB51290912B600E9B0FE /* Arvid's Todo */;
+			targetProxy = 87BFBB6E290912B800E9B0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87BFBB75290912B800E9B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87BFBB76290912B800E9B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		87BFBB78290912B800E9B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arvid's Todo/Arvid_s_Todo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arvid's Todo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87BFBB79290912B800E9B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arvid's Todo/Arvid_s_Todo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arvid's Todo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87BFBB7B290912B800E9B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arvid's Todo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arvid's Todo";
+			};
+			name = Debug;
+		};
+		87BFBB7C290912B800E9B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arvid's Todo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arvid's Todo";
+			};
+			name = Release;
+		};
+		87BFBB7E290912B800E9B0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arvid's Todo";
+			};
+			name = Debug;
+		};
+		87BFBB7F290912B800E9B0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arvid.Arvid-s-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arvid's Todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87BFBB4D290912B600E9B0FE /* Build configuration list for PBXProject "Arvid's Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFBB75290912B800E9B0FE /* Debug */,
+				87BFBB76290912B800E9B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFBB77290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFBB78290912B800E9B0FE /* Debug */,
+				87BFBB79290912B800E9B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFBB7A290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's TodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFBB7B290912B800E9B0FE /* Debug */,
+				87BFBB7C290912B800E9B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFBB7D290912B800E9B0FE /* Build configuration list for PBXNativeTarget "Arvid's TodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFBB7E290912B800E9B0FE /* Debug */,
+				87BFBB7F290912B800E9B0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87BFBB4A290912B600E9B0FE /* Project object */;
+}
