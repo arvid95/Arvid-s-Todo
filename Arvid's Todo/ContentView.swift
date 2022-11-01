@@ -10,34 +10,44 @@ import SwiftUI
 struct TaskObject: Hashable {
     let title: String
     var isDone = false
+    var category: String
 }
 
 struct ContentView: View {
     @State private var inputText = ""
-    @State private var todoList: [TaskObject] = [TaskObject(title: "Example"), TaskObject(title: "Another example")]
+    @State private var todoList: [TaskObject] = [TaskObject(title: "Clean under sink", category: "General"), TaskObject(title: "Buy potatoes", category: "Shopping"), TaskObject(title: "Run around Munksjön", category: "Fitness"), TaskObject(title: "Complete Lab 1", category: "Studying"), TaskObject(title: "Complete Lab 2", category: "Studying")]
+    @State private var categoryList = ["General", "Shopping", "Fitness", "Studying"]
+    @State private var selectedCategory = "General"
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(todoList, id: \.self) { object in
-                    HStack {
-                        Image(systemName: object.isDone ? "checkmark.square" : "square")
-                        Text(object.title)
-                    }
-                    .onTapGesture {
-                        if let index = todoList.firstIndex(of: object) {
-                            todoList[index].isDone.toggle()
+                ForEach(categoryList, id: \.self) { category in
+                    
+                    Text(category).bold()
+                    ForEach(todoList, id: \.self) { todo in
+                        if (todo.category == category) {
+                            HStack {
+                                Image(systemName: todo.isDone ? "checkmark.square" : "square")
+                                Text(todo.title)
+                            }
+                            .onTapGesture {
+                                if let index = todoList.firstIndex(of: todo) {
+                                    todoList[index].isDone.toggle()
+                                }
+                            }
                         }
                     }
-                }
-                .onDelete { indexSet in
-                    indexSet.forEach { index in
-                        todoList.remove(at: index)
+                    .onDelete { indexSet in
+                        indexSet.forEach { index in
+                            todoList.remove(at: index)
+                        }
                     }
+                    
                 }
                 TextField("Enter task title", text: $inputText)
                     .onSubmit {
-                        todoList.append(TaskObject(title: inputText))
+                        todoList.append(TaskObject(title: inputText, category: selectedCategory))
                         inputText = ""
                     }
             }
