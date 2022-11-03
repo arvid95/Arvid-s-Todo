@@ -10,7 +10,7 @@ import SwiftUI
 struct TaskObject: Hashable {
     let title: String
     var isDone = false
-    var category: String
+    let category: String
 }
 
 struct ContentView: View {
@@ -23,7 +23,6 @@ struct ContentView: View {
         NavigationStack {
             List {
                 ForEach(categoryList, id: \.self) { category in
-                    
                     Text(category).bold()
                     ForEach(todoList, id: \.self) { todo in
                         if (todo.category == category) {
@@ -43,13 +42,21 @@ struct ContentView: View {
                             todoList.remove(at: index)
                         }
                     }
-                    
                 }
-                TextField("Enter task title", text: $inputText)
-                    .onSubmit {
-                        todoList.append(TaskObject(title: inputText, category: selectedCategory))
-                        inputText = ""
+                
+                Section() {
+                    TextField("Enter todo title", text: $inputText)
+                        .onSubmit {
+                            todoList.append(TaskObject(title: inputText, category: selectedCategory))
+                            inputText = ""
+                        }
+                    Picker("Category", selection: $selectedCategory) {
+                                ForEach(categoryList, id: \.self) { category in
+                            Text(category)
+                        }
                     }
+                }
+                
             }
             .navigationTitle("Arvid's Todo")
         }
