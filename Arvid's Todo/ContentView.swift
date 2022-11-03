@@ -23,7 +23,22 @@ struct ContentView: View {
         NavigationStack {
             List {
                 ForEach(categoryList, id: \.self) { category in
-                    Text(category).bold()
+                    HStack {
+                        Text(category).bold()
+                        Spacer()
+                        switch category {
+                        case "General":
+                            Image(systemName: "star")
+                        case "Shopping":
+                            Image(systemName: "basket")
+                        case "Fitness":
+                            Image(systemName: "figure.walk")
+                        case "Studying":
+                            Image(systemName: "book")
+                        default:
+                            Text("Invalid category!")
+                        }
+                    }
                     ForEach(todoList, id: \.self) { todo in
                         if (todo.category == category) {
                             HStack {
